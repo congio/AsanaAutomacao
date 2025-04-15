@@ -123,7 +123,7 @@ try:
     # Cria e salva o DataFrame
     df = pd.DataFrame(tasks_data)
     output_file = "USUCAPIAO_tarefas.xlsx"
-    output_path = "Z:\Fonte de dados interna\USUCAPIAO_tarefas.xlsx"
+    output_path = "\\SERVIDOR\Dashboard\Fonte de dados interna\USUCAPIAO_tarefas.xlsx"
     df.to_excel(output_path, index=False, engine='openpyxl')
     print(f"Relatório gerado com sucesso: {output_file}")
 

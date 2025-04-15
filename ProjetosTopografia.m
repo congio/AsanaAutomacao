@@ -1,5 +1,12 @@
 let
-    TodosOsProjetos = Table.Combine({#"GEO-INCRA"}),
+    TodosOsProjetos = Table.Combine(
+        {
+            #"GEO-INCRA",
+            #"UNIFICACAO",
+            #"USUCAPICAO",
+            #"ESTREMACAO"
+        }
+    ),
 
     // Extrai apenas os números da OS (sem "OS")
     ExtrairNúmeroOS = Table.AddColumn(
