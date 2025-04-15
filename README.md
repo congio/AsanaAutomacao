@@ -4,7 +4,7 @@ Esta documentação descreve em detalhe como funciona o processo de extração, 
 
 ---
 
-## 🔷 Nível 1 – Diagrama de Contexto (C1)
+## 🔷 Nível 1 – Diagrama de Contexto
 
 **Objetivo:** Mostrar os envolvidos e os sistemas que se comunicam.
 
@@ -22,7 +22,7 @@ Esta documentação descreve em detalhe como funciona o processo de extração, 
 
 ---
 
-## 🔷 Nível 2 – Diagrama de Contêineres (C2)
+## 🔷 Nível 2 – Diagrama de Contêineres
 
 **Contêineres principais:**
 
@@ -46,7 +46,7 @@ Esta documentação descreve em detalhe como funciona o processo de extração, 
 
 ---
 
-## 🔷 Nível 3 – Diagrama de Componentes (C3)
+## 🔷 Nível 3 – Diagrama de Componentes
 
 ### 🔹 Script Python `GEO-INCRA.py`
 - 📦 **Asana SDK:** Conecta-se e consulta tarefas usando `asana.TasksApi`.
@@ -80,7 +80,7 @@ Este script é o coração da transformação de dados no Power BI. Ele é respo
 
 ---
 
-## 🔷 Nível 4 – Código (C4)
+## 🔷 Nível 4 – Código
 
 ### 🔹 GEO-INCRA.py (Resumo de implementação)
 ```python
