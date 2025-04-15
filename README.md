@@ -1,6 +1,6 @@
-# 📐 Documentação Técnica C4 – Sistema de Integração Power BI + Asana
+# 📐 Documentação Sistema de Integração Power BI + Asana
 
-Esta documentação segue a abordagem do **Modelo C4 (Context, Container, Component, Code)** e descreve em detalhe como funciona o processo de extração, transformação e visualização de dados no Power BI a partir do Asana. Inclui scripts Python, arquivos Excel e transformação via Power Query.
+Esta documentação descreve em detalhe como funciona o processo de extração, transformação e visualização de dados no Power BI a partir do Asana. Inclui scripts Python, arquivos Excel e transformação via Power Query.
 
 ---
 
